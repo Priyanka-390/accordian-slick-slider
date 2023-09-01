@@ -153,10 +153,12 @@
     width: 992px;
     margin-left: auto;
     margin-right: auto;
+    border: none;
 }
 
 #sec1 .accordion-button:not(.collapsed) {
     color: black;
+    box-shadow: none;
 }
 
 #sec1 .accordion-button:focus {
@@ -191,6 +193,7 @@
 
 #sec2 .accordion-button:not(.collapsed) {
     color: white;
+    box-shadow: none;
 
 }
 
@@ -229,6 +232,7 @@
 #sec3 .accordion-button:not(.collapsed) {
     color: white;
     border: none !important;
+    box-shadow: none;
 }
 
 #sec3 .accordion-button:focus {
@@ -248,10 +252,10 @@
     height: 15px;
     border-radius: 7.5px;
     background-color: black;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 #slid .slick-dots li button:before {
-    font-size: 19px;
+    font-size: 10px;
 }
 
 .cards {
@@ -314,14 +318,19 @@
     right: 4%;
 }
 
-.circle:hover {
+ .prev:hover.circle {
     border-color: #FF5300;
 }
 
- div span svg path:hover {
+ .prev:hover span svg path {
     fill: #FF5300;
 }
-
+.next:hover.circle{
+    border-color:#FF5300 ;
+}
+.next:hover span svg path {
+    fill: #FF5300;
+}
 .my-slide .slick-dots li button:before {
     content: "";
 }
@@ -357,5 +366,5 @@
     margin: 0 25px;
 }
 #slick1 .slick-dots li button:before { 
-    font-size: 17px;
+    font-size: 13px;
 }
