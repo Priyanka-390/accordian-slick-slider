@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(./root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.opacity-7 {
+    opacity: 0.7;
+}
+
+.sec-1 {
+    background: #F6E300;
+}
+
+.sec-2 {
+    background: #000A1A;
+}
+
+.sec-3 {
+    background: black;
+}
+
+.sec-4 {
+    background: #fff7f4;
+}
+
+.sec-5 {
+    background: #FFF7F4;
+}
+
+.sec-6 {
+    background: #FFFFFF;
+}
+
+/* font-size */
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-25 {
+    font-size: var(--fs-25);
+}
+
+.fs-50 {
+    font-size: var(--fs-50);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-40 {
+    font-size: var(--fs-40);
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+/* font-family */
+.ff-poppins {
+    font-family: var(--ff-poppins);
+}
+
+
+/* font-weight */
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+
+/* text-color */
+.col-black {
+    color: var(--col-black);
+}
+
+.col-white {
+    color: var(--col-white);
+}
+
+.col-grey {
+    color: #7B7B7B;
+}
+
+.col-orange {
+    color: orange;
+}
+
+/* padding */
+.pt-58 {
+    padding-top: 58px;
+}
+
+.pb-26 {
+    padding-bottom: 26px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.ml-100 {
+    margin-left: 100px;
+}
+
+/* max-width */
+.mw-866 {
+    width: 866px;
+}
+
+.mw-370 {
+    max-width: 370px;
+}
+
+
+
+/* accordian-1 */
+#sec1 .accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    background: #FFF03F;
+}
+
+#sec1 .accordion-flush .accordion-collapse {
+    border-width: 0;
+    background: #FFF03F;
+}
+
+#sec1 .accordion-item {
+    border-color: #FFF03F;
+    margin-top: 8px;
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec1 .accordion-button:not(.collapsed) {
+    color: black;
+}
+
+#sec1 .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+#sec1 .accordion-button::after {
+    background-image: url("../images/png/btn.png");
+}
+
+/* accordian-2 */
+#sec2 .accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    background: #031227;
+}
+
+#sec2 .accordion-flush .accordion-collapse {
+    border-width: 0;
+
+}
+
+#sec2 .accordion-item {
+    border-color: #000A1A;
+    margin-top: 8px;
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000A1A;
+}
+
+#sec2 .accordion-button:not(.collapsed) {
+    color: white;
+
+}
+
+#sec2 .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+#sec2 .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white' %3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+
+/* accordian-3 */
+#sec3 .accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    background: #121111;
+    margin-top: 12px;
+    border: 1px solid #313030;
+}
+
+#sec3 .accordion-flush .accordion-collapse {
+    border-width: 0;
+}
+
+#sec3 .accordion-item {
+    border-color: #000A1A;
+    margin-top: 8px;
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #121111;
+}
+
+#sec3 .accordion-button:not(.collapsed) {
+    color: white;
+    border: none !important;
+}
+
+#sec3 .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+
+}
+
+#sec3 .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white' %3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+/* slider-1 */
+
+.slick-dots li.slick-active button:before {
+    width: 49px;
+    height: 15px;
+    border-radius: 7.5px;
+    background-color: black;
+    margin: 0 15px;
+}
+
+.cards {
+    background: #FF5300;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 30px;
+    width: 470px;
+    margin-left: 50px;
+}
+
+.pos-absolute {
+    position: absolute;
+    left: -12%;
+    top: 10%;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -53px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+/* slider-2 */
+.card2 {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.mw-320 {
+    max-width: 320px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+
+.pos-ab {
+    position: absolute;
+    top: 44%;
+    left: 4%;
+}
+
+.pos-abs {
+    position: absolute;
+    top: 44%;
+    right: 4%;
+}
+
+.circle:hover {
+    border-color: #FF5300;
+}
+
+div span svg path:hover {
+    fill: #FF5300;
+}
+
+.my-slide .slick-dots li button:before {
+    content: "";
+}
+
+.my-slide .slick-dots li.slick-active button:before {
+    display: none;
+}
+
+/* slider-3 */
+.card3 {
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 18px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mw-217{
+    min-width: 217px;
+}
+ #slick1 .slick-dots li.slick-active button:before {
+    width: 49px;
+    height: 15px;
+    border-radius: 7.5px;
+    background-color: orange;
+    margin: 0 10px;
+}
+#slick1 .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: orange;
+}
+#slick1 .slick-dots li{
+    margin: 0 25px;
+}
+#slick1 .slick-dots li button:before { 
+    font-size: 17px;
+}

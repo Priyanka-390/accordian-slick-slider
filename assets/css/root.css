@@ -1,0 +1,21 @@
+:root{
+/* font size */
+--fs-48: 48px;
+--fs-18: 18px;
+--fs-20: 20px;
+--fs-50: 50px;
+--fs-16: 16px;
+--fs-40: 40px;
+--fs-25: 25px;
+/* /font-weight */
+    --fw-700: 700px;
+    --fw-600: 600px;
+    --fw-400: 400px;
+
+/* font-color */
+--col-black: black;
+--col-white: white;
+
+/* font-family */
+    --ff-poppins: 'poppins', sans-serif;
+}
