@@ -243,12 +243,15 @@
 
 /* slider-1 */
 
-.slick-dots li.slick-active button:before {
+#slid .slick-dots li.slick-active button:before {
     width: 49px;
     height: 15px;
     border-radius: 7.5px;
     background-color: black;
     margin: 0 15px;
+}
+#slid .slick-dots li button:before {
+    font-size: 19px;
 }
 
 .cards {
@@ -263,6 +266,9 @@
     position: absolute;
     left: -12%;
     top: 10%;
+}
+#slid .slick-dots li{
+    margin: 0 25px;
 }
 
 .slick-dots {
@@ -312,7 +318,7 @@
     border-color: #FF5300;
 }
 
-div span svg path:hover {
+ div span svg path:hover {
     fill: #FF5300;
 }
 
